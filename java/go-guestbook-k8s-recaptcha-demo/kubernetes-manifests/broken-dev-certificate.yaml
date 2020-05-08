@@ -1,8 +1,0 @@
-apiVersion: networking.gke.io/v1beta2
-kind: ManagedCertificate
-metadata:
-  name: broken-dev
-spec:
-  domains:
-     - www.broken.dev
-     - broken.dev
